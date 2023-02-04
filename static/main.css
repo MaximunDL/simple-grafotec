@@ -1,0 +1,285 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* cabezera */
+.cabezera {
+    width: 100%;
+}
+
+.cabezera .caja-1 {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.cabezera .caja-1 .iconos2 {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    display: flex;
+}
+
+.cabezera .caja-1 .iconos2 a {
+    text-decoration: none;
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    bottom: 15px;
+    right: 30px;
+    text-align: center;
+    color: #F4F4F4;
+    border-radius: 50%;
+    background-color: #2A4574;
+}
+
+.cabezera .caja-1 .iconos {
+    position: absolute;
+    top: 45px;
+    left: 80%;
+    display: flex;
+}
+
+.cabezera .caja-1 .iconos a {
+    text-decoration: none;
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    bottom: 15px;
+    right: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.cabezera .caja-1 .iconos .fa-facebook {
+    color: #fff;
+    background-color: #2A4574;
+}
+
+.cabezera .caja-1 .iconos .fa-instagram {
+    background: #2A4574;
+    color: #fff;
+}
+
+.cabezera .caja-1 .iconos .fa-envelope {
+    background: black;
+    
+    color: #fff;
+}
+
+.cabezera .caja-1 .iconos .fa-tiktok {
+    color: white;
+    background: #2A4574;
+}
+
+.cabezera .caja-1 .iconos .fa-whatsapp {
+    color: white;
+    background: #2A4574;
+}
+
+
+/* navbar */
+.navbar {
+    background: rgb(42, 69, 116);
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.navbar a:hover {
+    color: #0096D1;
+}
+
+
+/* banner */
+.banner {
+    display: flex;
+    text-align: center;
+    background-size: cover;
+}
+
+
+.btn-wsp {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #03C100;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+.btn {
+    color: black;
+    background: yellow;
+    margin-top: 20px;
+}
+
+.solution1 {
+    color: #2A4574;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.solution {
+    margin-top: 40px;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+.card-project:hover {
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.contenedor-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    margin-bottom: 1rem;
+}
+
+.info h3 {
+    text-align: center;
+}
+
+.descripcion {
+    color: black;
+    text-align: center;
+}
+
+.formulario {
+    text-align: center;
+}
+
+.contact-form {
+    background-image: url('./images/datos.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    width: 60%;
+    display: inline-block;
+    text-align: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    width: 100px;
+    margin-right: 1rem;
+  }
+
+
+.servicio {
+    display: inline-block;
+    text-align: center;
+}
+
+.servicio .a {
+    margin-top: 10px 100px;
+}
+
+
+.pie-pagina {
+    width: 100%;
+    background-image: url('./images/Banner\ Inferior.png');
+    color: white;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.pie-pagina .grupo-1 {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box h2 {
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.pie-pagina .grupo-1 .box p {
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a {
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    line-height: 45px;
+    margin-right: 10px;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover {
+    color: #0096D1;
+}
+
+.pie-pagina .grupo-1 .red-social .fa-facebook {
+    color: white;
+}
+
+.pie-pagina .grupo-1 .red-social .fa-whatsapp {
+    color: white;
+}
+
+.pie-pagina .grupo-1 .red-social .fa-instagram {
+    color: white;
+}
+
+.pie-pagina .grupo-1 .red-social .fa-envelope {
+    color: white;
+}
+
+.pie-pagina .grupo-1 .red-social .fa-tiktok {
+    color: white;
+}
+
+.pie-pagina .grupo-2 {
+    padding: 15px 10px;
+    text-align: center;
+}
+
+.acerca {
+    background: #F4F4F4;
+}
